@@ -1,0 +1,52 @@
+Protel Design System Design Rule Check
+PCB File : C:\Users\HP\Desktop\_Sem 4\5_Electronic Design Realization\1_Schematic & PCB for a Color Sorter\Modified PCB\PCB_Project\PCB_Project.PcbDoc
+Date     : 07/02/2024
+Time     : 21:09:22
+
+Processing Rule : Clearance Constraint (Gap=0mil) (All),(All)
+Rule Violations :0
+
+Processing Rule : Short-Circuit Constraint (Allowed=No) (All),(All)
+Rule Violations :0
+
+Processing Rule : Un-Routed Net Constraint ( (All) )
+Rule Violations :0
+
+Processing Rule : Modified Polygon (Allow modified: No), (Allow shelved: No)
+Rule Violations :0
+
+Processing Rule : Width Constraint (Min=10mil) (Max=12mil) (Preferred=10mil) (All)
+Rule Violations :0
+
+Processing Rule : Power Plane Connect Rule(Relief Connect )(Expansion=20mil) (Conductor Width=10mil) (Air Gap=10mil) (Entries=4) (All)
+Rule Violations :0
+
+Processing Rule : Hole Size Constraint (Min=1mil) (Max=100mil) (All)
+Rule Violations :0
+
+Processing Rule : Hole To Hole Clearance (Gap=10mil) (All),(All)
+Rule Violations :0
+
+Processing Rule : Minimum Solder Mask Sliver (Gap=10mil) (All),(All)
+Rule Violations :0
+
+Processing Rule : Silk To Solder Mask (Clearance=10mil) (IsPad),(All)
+   Violation between Silk To Solder Mask Clearance Constraint: (Collision < 10mil) Between Pad C5-2(1765mil,1991.575mil) on Multi-Layer And Text "Q2" (1776mil,1914mil) on Top Overlay [Top Overlay] to [Top Solder] clearance [0mil]
+   Violation between Silk To Solder Mask Clearance Constraint: (9.851mil < 10mil) Between Pad R1-1(2365mil,2500mil) on Multi-Layer And Track (2057.913mil,2500mil)(2326.102mil,2500mil) on Top Overlay [Top Overlay] to [Top Solder] clearance [9.851mil]
+   Violation between Silk To Solder Mask Clearance Constraint: (9.851mil < 10mil) Between Pad R1-2(1278.386mil,2500mil) on Multi-Layer And Track (1317.284mil,2500mil)(1585.472mil,2500mil) on Top Overlay [Top Overlay] to [Top Solder] clearance [9.851mil]
+Rule Violations :3
+
+Processing Rule : Silk to Silk (Clearance=10mil) (All),(All)
+Rule Violations :0
+
+Processing Rule : Net Antennae (Tolerance=0mil) (All)
+   Violation between Net Antennae: Track (2719.843mil,2966.22mil)(2786.869mil,2966.22mil) on Top Layer 
+Rule Violations :1
+
+Processing Rule : Height Constraint (Min=0mil) (Max=1000mil) (Prefered=500mil) (All)
+Rule Violations :0
+
+
+Violations Detected : 4
+Waived Violations : 0
+Time Elapsed        : 00:00:02
